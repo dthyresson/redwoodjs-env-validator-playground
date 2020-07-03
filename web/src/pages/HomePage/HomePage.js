@@ -5,7 +5,7 @@ import WeatherCell from 'src/components/WeatherCell'
 const HomePage = () => {
   return (
     <Stack align="center" justify="center" p={8}>
-      <Heading>netlify-plugin-redwoodjs-env-validator</Heading>
+      <Heading>netlify-plugin-redwoodjs-env-validator Playground</Heading>
 
       <Flex align="center" justify="center">
         <Text textAlign="center" bg="pink.50" p={8}>
