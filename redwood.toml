@@ -10,7 +10,9 @@
 [web]
   port = 8910
   apiProxyPath = "/.netlify/functions"
+  includeEnvironmentVariables = ['DEFAULT_ZIP']
 [api]
   port = 8911
+  includeEnvironmentVariables = ['DATABASE_URL','BINARY_TARGET','OPEN_WEATHER_MAP_TOKEN']
 [browser]
   open = true
