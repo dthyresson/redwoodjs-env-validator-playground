@@ -10,7 +10,7 @@
 [web]
   port = 8910
   apiProxyPath = "/.netlify/functions"
-  includeEnvironmentVariables = ['EMOJI', 'DEFAULT_ZIP','NO_LONGER_NEEDED_ENV']
+  includeEnvironmentVariables = ['EMOJI', 'DEFAULT_ZIP']
 [api]
   port = 8911
   includeEnvironmentVariables = ['DATABASE_URL','BINARY_TARGET','OPEN_WEATHER_MAP_TOKEN']
