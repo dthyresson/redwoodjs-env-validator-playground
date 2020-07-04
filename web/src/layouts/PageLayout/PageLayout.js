@@ -1,11 +1,33 @@
-import { Box, Code, Heading, Icon, Link, Stack, Text } from '@chakra-ui/core'
+import {
+  Box,
+  Code,
+  Heading,
+  Icon,
+  Image,
+  Link,
+  Stack,
+  Text,
+} from '@chakra-ui/core'
 
 const PageLayout = ({ children }) => {
   return (
     <Stack spacing={2}>
       <Box p={4} bg="gray.50" borderBottom="1px" borderColor="gray.100">
         <Stack>
-          <Heading>netlify-plugin-redwoodjs-env-validator Playground</Heading>
+          <Stack isInline align="baseline">
+            <Image src="favicon.png" size="24px"></Image>{' '}
+            <Heading color="gray.600">
+              <Link
+                href="https://docs.netlify.com/configure-builds/build-plugins/"
+                isExternal
+                color="gray.800"
+                fontWeight="bold"
+              >
+                netlify-plugin-redwoodjs-env-validator
+              </Link>{' '}
+              Playground
+            </Heading>
+          </Stack>
 
           <Text mt={4}>
             This is a demo of a{' '}

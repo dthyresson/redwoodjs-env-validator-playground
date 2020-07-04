@@ -11,10 +11,10 @@ const HomePage = () => {
         <Flex align="center" justify="center" direction="column">
           <Text
             textAlign="center"
-            bg="blue.50"
+            bg="green.50"
             p={8}
             borderWidth="1px"
-            borderColor="blue.100"
+            borderColor="green.100"
             rounded="lg"
             shadow="md"
           >
@@ -36,10 +36,10 @@ const HomePage = () => {
         <Flex align="center" justify="center" direction="column">
           <Text
             textAlign="center"
-            bg="red.50"
+            bg="green.50"
             p={8}
             borderWidth="1px"
-            borderColor="red.100"
+            borderColor="green.100"
             rounded="lg"
             shadow="md"
           >
