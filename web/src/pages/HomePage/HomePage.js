@@ -7,28 +7,67 @@ const HomePage = () => {
   return (
     <PageLayout>
       <Stack align="center" justify="center" spacing={12} p={8}>
-        <Heading>netlify-plugin-redwoodjs-env-validator Playground</Heading>
-
+        <Heading>Validations</Heading>
         <Flex align="center" justify="center" direction="column">
-          <Text textAlign="center" bg="blue.50" p={8}>
+          <Text
+            textAlign="center"
+            bg="blue.50"
+            p={8}
+            borderWidth="1px"
+            borderColor="blue.100"
+            rounded="lg"
+            shadow="md"
+          >
             You should see some lorem ipsum text pulled from the database below.
           </Text>
-          <Box mt={8}>
+          <Box
+            mt={8}
+            bg="gray.50"
+            p={4}
+            borderWidth="1px"
+            borderColor="gray.100"
+            rounded="lg"
+            shadow="md"
+          >
             <NoticesCell />
           </Box>
         </Flex>
 
         <Flex align="center" justify="center" direction="column">
-          <Text textAlign="center" bg="red.50" p={8}>
+          <Text
+            textAlign="center"
+            bg="red.50"
+            p={8}
+            borderWidth="1px"
+            borderColor="red.100"
+            rounded="lg"
+            shadow="md"
+          >
             You should see a smiley emoji defined in EMOJI env.
           </Text>
-          <Text mt={8} textAlign="center">
+          <Text
+            mt={8}
+            textAlign="center"
+            borderWidth="1px"
+            borderColor="gray.100"
+            rounded="lg"
+            shadow="md"
+            p={12}
+          >
             {process.env['EMOJI']}
           </Text>
         </Flex>
 
         <Box>
-          <Text textAlign="center" bg="green.50" p={8}>
+          <Text
+            textAlign="center"
+            bg="green.50"
+            p={8}
+            borderWidth="1px"
+            borderColor="green.100"
+            rounded="lg"
+            shadow="md"
+          >
             You should see the weather for Boston pulled from a service with
             API_TOKEN envs set and a DEFAULT_ZIP.
           </Text>
