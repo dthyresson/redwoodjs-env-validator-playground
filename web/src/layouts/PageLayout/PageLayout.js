@@ -131,7 +131,7 @@ const PageLayout = ({ children }) => {
           <Text>
             For more information, see the plugin{' '}
             <Link
-              href="https://github.com/dthyresson/netlify-plugin-redwoodjs-env-validator"
+              href="https://github.com/dthyresson/netlify-plugin-redwoodjs-env-validator/blob/master/README.md"
               isExternal
               color="teal.500"
               fontWeight="bold"
