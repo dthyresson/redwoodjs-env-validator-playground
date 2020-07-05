@@ -63,7 +63,7 @@ export const Success = ({ weather }) => {
         <Stat>
           <StatLabel>{weather.city}</StatLabel>
           <Box>
-            <Image src={weather.icon} />
+            <Image src={weather.icon?.replace(/https:|http:/gi, '')} />
             <StatNumber>
               {weather.temp}°F and {weather.conditions}
             </StatNumber>
