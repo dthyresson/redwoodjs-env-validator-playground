@@ -18,7 +18,7 @@ const PageLayout = ({ children }) => {
             <Image src="favicon.png" size="24px"></Image>{' '}
             <Heading color="gray.600">
               <Link
-                href="https://docs.netlify.com/configure-builds/build-plugins/"
+                href="https://github.com/dthyresson/netlify-plugin-redwoodjs-env-validator"
                 isExternal
                 color="gray.800"
                 fontWeight="bold"
@@ -76,7 +76,7 @@ const PageLayout = ({ children }) => {
               />
             </Link>{' '}
             <Link
-              href="(https://redwoodjs.com/docs/environment-variables"
+              href="https://redwoodjs.com/docs/environment-variables"
               isExternal
               color="teal.500"
               fontWeight="bold"
